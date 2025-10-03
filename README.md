@@ -100,8 +100,8 @@ Exemple (à adapter à votre environnement):
 ```apache
 <VirtualHost *:80>
     ServerName dev.local
-    DocumentRoot "C:/chemin/vers/votre/repo/docs"
-    <Directory "C:/chemin/vers/votre/repo/docs">
+    DocumentRoot "C:\Users\tsavergne\Documents\td2-structuration-html-Tristan120925\docs"
+    <Directory "C:\Users\tsavergne\Documents\td2-structuration-html-Tristan120925\docs">
         AllowOverride All
         Options -Indexes
         Require all granted
